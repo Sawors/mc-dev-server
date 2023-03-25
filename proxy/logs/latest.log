@@ -1,0 +1,55 @@
+[20:26:30] [main/INFO]: Using standard Java JCE cipher.
+[20:26:30] [main/INFO]: Using standard Java compressor.
+[20:26:30] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.19-R0.1-SNAPSHOT:6ca281b:516
+[20:26:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+[20:26:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+[20:26:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+[20:26:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+[20:26:30] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+[20:26:30] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+[20:26:30] [main/INFO]: Loaded plugin Reconnect version 1.6.5 by TauCubed (Development, commands & overhaul), 5zig (Initial Development), Krymonota (Contribution), Terrobility (Addition Config), dallasxfulcanelly (dynamic localization)
+[20:26:30] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/WARN]: Forced host server pvp is not defined
+[20:26:30] [main/INFO]: Enabled plugin Reconnect version 1.6.5 by TauCubed (Development, commands & overhaul), 5zig (Initial Development), Krymonota (Contribution), Terrobility (Addition Config), dallasxfulcanelly (dynamic localization)
+[20:26:30] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:6ca281b:516 by WaterfallMC
+[20:26:30] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25565
+[20:26:50] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:59284] <-> InitialHandler has pinged
+[20:26:51] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:59289] <-> InitialHandler has pinged
+[20:26:55] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:59295] <-> InitialHandler has connected
+[20:26:55] [Netty Worker IO Thread #2/INFO]: [Sawors|/127.0.0.1:59295] <-> ServerConnector [dev] has connected
+[20:26:59] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectDownstreamHandler <-> [dev] matched kick message: Server closed
+[20:26:59] [Netty Worker IO Thread #2/INFO] [Reconnect]: Reconnecting "Sawors" to "dev"
+[20:27:19] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectServerConnector [dev] has connected
+[20:31:29] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectDownstreamHandler <-> [dev] matched kick message: Server closed
+[20:31:29] [Netty Worker IO Thread #2/INFO] [Reconnect]: Reconnecting "Sawors" to "dev"
+[20:34:25] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectServerConnector [dev] has connected
+[20:34:41] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectDownstreamHandler <-> [dev] matched kick message: Server closed
+[20:34:41] [Netty Worker IO Thread #2/INFO] [Reconnect]: Reconnecting "Sawors" to "dev"
+[20:34:57] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectServerConnector [dev] has connected
+[20:41:07] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectDownstreamHandler <-> [dev] matched kick message: Server closed
+[20:41:07] [Netty Worker IO Thread #2/INFO] [Reconnect]: Reconnecting "Sawors" to "dev"
+[20:41:24] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectServerConnector [dev] has connected
+[20:41:41] [Netty Worker IO Thread #2/INFO]: [Sawors] <-> ReconnectDownstreamHandler <-> [dev] matched kick message: Server closed
+[20:41:41] [Netty Worker IO Thread #2/INFO] [Reconnect]: Reconnecting "Sawors" to "dev"
+[20:43:21] [Shutdown Thread/INFO]: Closing listener [id: 0xac7367bb, L:/[0:0:0:0:0:0:0:0]:25565]
+[20:43:21] [Shutdown Thread/INFO]: Closing pending connections
+[20:43:21] [Shutdown Thread/INFO]: Disconnecting 1 connections
+[20:43:21] [Shutdown Thread/INFO]: [Sawors] disconnected with: The proxy server is restarting
+[20:43:21] [Netty Worker IO Thread #2/INFO] [Reconnect]: Cancelled reconnect for "Sawors" on "dev" as they have disconnected
+[20:43:22] [Netty Worker IO Thread #2/WARN]: Plugin listener me.taucu.reconnect.Reconnect took 322ms to process event PlayerDisconnectEvent(player=Sawors)!
+[20:43:22] [Netty Worker IO Thread #2/WARN]: Event PlayerDisconnectEvent(player=Sawors) took 322ms to process!
+[20:43:22] [Netty Worker IO Thread #2/INFO]: [/127.0.0.1:59295|Sawors] -> UpstreamBridge has disconnected
+[20:43:22] [Shutdown Thread/INFO]: Saving reconnect locations
+[20:43:22] [Shutdown Thread/INFO]: Disabling plugins
+[20:43:22] [Shutdown Thread/INFO]: Closing IO threads
+[20:43:24] [Shutdown Thread/INFO]: Thank you and goodbye
