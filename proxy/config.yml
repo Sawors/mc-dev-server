@@ -1,7 +1,7 @@
 enforce_secure_profile: false
 listeners:
 - query_port: 25577
-  motd: "       &e&n&l/!\\&r &4&cServeur de test &e&n&l/!\\&r&r\n(principal hors ligne / whitelist on)"
+  motd: "       &e&n&l/!\\&r &4&cServeur de test &e&n&l/!\\&r\n&8(principal hors ligne / whitelist on)"
   tab_list: GLOBAL_PING
   query_enabled: false
   proxy_protocol: false
@@ -47,6 +47,6 @@ disabled_commands:
 - disabledcommandhere
 servers:
   dev:
-    motd: "       &e&n&l/!\\&r &4&cServeur de test &e&n&l/!\\&r&r\n(principal hors ligne / whitelist on)"
+    motd: "       &e&n&l/!\\&r &4&cServeur de test &e&n&l/!\\&r\n&8(principal hors ligne / whitelist on)"
     address: localhost:25575
     restricted: false
