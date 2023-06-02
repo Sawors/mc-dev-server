@@ -7,9 +7,6 @@ for %%* in (.) do set source_name=%%~n*
 
 rem usually you shouldn't have to edit these
 set javah=%JAVA_HOME%
-set server_executable="paper"
-IF NOT "%~1"=="" set server_executable=%1
-set ram=4
 
 rem clean + package the project
 call mvn clean
