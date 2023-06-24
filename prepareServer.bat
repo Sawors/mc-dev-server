@@ -19,5 +19,5 @@ del /q "%source%\target\%source_name%-*-shaded.jar"
 del /q "%server%\plugins\%source_name%-*.jar"
 xcopy "%source%\target\%source_name%-*.jar" "%server%\plugins" /y /s
 rem start the server
-rem cd "%server%\"
+cd "%server%\"
 "%javah%\bin\java" -Xmx%ram%G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar %server_executable%.jar nogui
